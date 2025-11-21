@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Interactive Page 2 - SmallWeb</title>
+        <link rel="stylesheet" href="/Styling.CSS">
+    </head>
+
+    <body class="background-image">
+        <header>
+            <div>
+                <a href="/Images/SmallWeb-Logo.jpg"><img src="/Images/SmallWeb-Logo.jpg" id="header-logo" title="logo" alt="Company logo"></a>
+                <p id="header-slogan">People. Productivity. Profitability</p>
+            </div>
+            <h1 class="page-title">Temerature Converter</h1>
+        </header>
+        
+        <nav> <!--Navegation Panel for different pages on website-->
+            <ul>
+                <li><a href="/">Homepage</a></li>
+                <li><a href="/Image gallery">Image Gallery</a></li>
+                <li><a href="/Interactive 1">Interactive 1</a></li>
+                <li><a href="/Interactive 2">Interactive 2</a></li>
+                <li><a href="/Registration">Registration</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            
+            <form>
+                <h3>Temperature Conversion:</h3>
+                <input type="number" id="textBox" value="0"><br>
+
+                <input type="radio" id="toFahrenheit" name="unit">
+                <label for="toFahrenheit">Celsius → Fahrenheit</label><br>
+
+                <input type="radio" id="toCelsius" name="unit">
+                <label for="toCelsius">Fahrenheit → Celsius</label><br>
+
+                <button type="button"  id="submit" onclick="convert()">submit</button>
+                <p id="result"></p>
+            </form>
+
+        </main>
+        
+        <script src="/Interactive 2/index.js"></script>
+    
+    </body>
+
+</html>

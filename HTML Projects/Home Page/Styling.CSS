@@ -1,0 +1,103 @@
+/* Image added for background*/
+body {
+  background-image: url(https://images.unsplash.com/photo-1549360336-6a77ea5193eb?q=80&w=3872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  display: grid;
+  grid-template-columns: min(20%, fit-content) auto;
+}
+body p {
+  padding: 2ch;
+  width: 65ch;
+  text-align: left;
+}
+
+header {
+  width: 100%;
+  color: white;
+  grid-column: span 2;
+}
+
+h1 {
+  font-size: calc(2.8em + 2.6vw);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-shadow: 0.022em 0.022em 0.022em, white;
+}
+
+ul {
+  border: 3px solid bisque;
+  border-radius: 30px;
+  animation: slide-in 1s ease-out;
+  background-color: black;
+  margin: 0;
+  list-style-type: none;
+  padding: 2ch;
+}
+
+
+nav li {
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 40px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main {
+  font-size: large;
+  color: white;
+  background-color: black;
+  border: 5px solid transparent;
+  border-color: bisque;
+  text-align: center;
+}
+
+.choices{
+  margin-bottom: 30px;
+}
+
+.choices button{
+  font-size: larger;
+  min-width: 80px;
+  margin: 0 10px;
+  border-radius: 200px;
+  background-color: bisque;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+/* Change the display size for the result within the "Interactive 1" HTML file */
+#resultDisplay{
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+/* Aligns the text to the centre, while also changing the font size and border details in the "Interactive 2" HTML file */
+#textBox{
+  text-align: center;
+  font-size: 1em;
+  border: 10px solid bisque(0, 0%, 0%, 0.8);
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Align and change the font size of the result text within the "Interactive 2" HTML file */
+#result{
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+/* Changes the look of the submit button within the "Interactive 2" HTML file */
+#submit{
+  margin-top: 15px;
+  font-size: larger;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#header-logo{
+  max-height: 200px;
+}

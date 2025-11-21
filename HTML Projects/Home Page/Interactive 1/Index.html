@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Interactive Page 1 - SmallWeb</title>
+        <link rel="stylesheet" href="/Styling.CSS">
+        <script type="application/javascript" src="/Interactive 1/script.js" ></script>
+    </head>
+
+    <body class="background-image">
+        <header>
+            <div>
+                <a href="/Images/SmallWeb-Logo.jpg"><img src="/Images/SmallWeb-Logo.jpg" id="header-logo" title="logo" alt="Company logo"></a>
+                <p id="header-slogan">People. Productivity. Profitability</p>
+            </div>
+            <h1 class="page-title">Rock - Paper - Scissors</h1>
+        </header>
+        
+        <nav> <!--Navegation Panel for different pages on website-->
+            <ul>
+                <li><a href="/">Homepage</a></li>
+                <li><a href="/Image gallery">Image Gallery</a></li>
+                <li><a href="/Interactive 1">Interactive 1</a></li>
+                <li><a href="/Interactive 2">Interactive 2</a></li>
+                <li><a href="/Registration">Registration</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            
+            <div class="choices">
+                <button onclick="playGame('rock')">👊</button>
+                <button onclick="playGame('paper')">✋</button>
+                <button onclick="playGame('scissors')">✌️</button>
+            </div>
+
+            <div id="playerDisplay">PLAYER: </div>
+            <div id="computerDisplay">COMPUTER: </div>
+            <div id="resultDisplay"></div>
+
+        </main>
+    </body>
+
+</html>
